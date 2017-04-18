@@ -1,0 +1,15 @@
+Number of states (N): 9
+970 388
+238 97
+326 361
+69 149
+200 700
+200 701
+201 701
+870 831
+892 687
+Difficult posts (M): 3
+Difficulty (D):
+0
+3
+7

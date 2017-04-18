@@ -1,0 +1,5 @@
+Expected number of votes on Election day: 387
+Senator Lukefahr should campaign in the following states:
+0
+3
+5

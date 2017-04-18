@@ -1,0 +1,9 @@
+The total campaign length is: 2429.55
+Lukefahr should visit each state in the following order: 
+0
+6
+1
+5
+3
+4
+2

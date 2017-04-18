@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CampGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="election.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MSTGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PathGraph.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CampGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="getopt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MSTGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathGraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="knap_spec.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="knap_spec_solution.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="mst_spec.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="mst_spec_solution.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tsp_spec.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="tsp_spec_solution.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-2-CAMPAIGN.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-1-CAMPAIGN.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-3-CAMPAIGN.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-4-MST.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-5-MST.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-6-MST.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-7-PATH.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-8-PATH.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="test-9-PATH.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="knap_6_s_23.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="knap_6_s_23_solution.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="knap_100.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="knap_100_solution.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="knap_15000.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="knap_15000_solution.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="output.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

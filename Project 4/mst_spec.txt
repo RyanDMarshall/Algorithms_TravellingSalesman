@@ -1,0 +1,13 @@
+Number of states (N): 8
+971 388
+237 96
+326 360
+59 148
+165 669
+400 346
+870 831
+892 687
+Difficulty posts (M): 2
+Difficulty (D): 1.7
+0
+5
