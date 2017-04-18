@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 #include <set>
-#include "getopt.h"
+#include <getopt.h>
 #include "CampGraph.h"
 #include "PathGraph.h"
 #include "Mode.h"

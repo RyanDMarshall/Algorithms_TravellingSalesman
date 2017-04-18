@@ -8,21 +8,14 @@
 
 class CampGraph {
 private:
-    struct Configuration {
-        size_t index;
-        double cost;
-        size_t votes;
-        std::vector<bool> used;
-    };
-
     class Vertex {
     private:
         friend class CampGraph;
-        size_t index;
         size_t votes;
+	size_t index;
         double cost;
     public:
-        Vertex() : votes(0), cost(0), index(0) { assert(false); };
+        Vertex() : votes(0), index(0), cost(0) { assert(false); };
         Vertex(size_t votes_in, size_t index_in, double cost_in)
             : votes(votes_in), index(index_in), cost(cost_in) { };
     };

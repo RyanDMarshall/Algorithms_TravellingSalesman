@@ -170,7 +170,6 @@ size_t CampGraph::greedy_fract(deque<pair<size_t, bool> > & s) {
 
     size_t g_votes = 0;
     double g_cost = 0;
-    double current_cost = 0;
     pair<size_t, bool> s_current;
 
     for (size_t i = 0; i < s.size(); ++i) {
@@ -195,7 +194,7 @@ size_t CampGraph::greedy_fract(deque<pair<size_t, bool> > & s) {
             g_votes += graph[i].votes;
         }
         else {
-            g_votes += size_t(((graph[i].votes / graph[i].cost) * (budget - g_cost)));
+            g_votes += size_t(((double(graph[i].votes) / graph[i].cost) * (budget - g_cost)));
             return g_votes;
         }
     }
