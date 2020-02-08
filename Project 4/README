@@ -1,0 +1,6 @@
+A course project which efficiently solves the Traveling Salesman Problem for a cost-directed matrix. 
+The project spec is included (ProjectSpec.pdf) which includes information about compilation, input formatting, and the three solution modes -- "CAMPAIGN", "MST", and "PATH".
+
+"CAMPAIGN" takes in a number of states and a maximal budget, as well as a set of costs & value in an election, and calculates the optimal path that does not exceed the specified budget.
+"MST" takes in a number of states, a corresponding set of (x, y) coordinates for each state, as well as 'difficult' states with a pre-specified difficulty factor, then calculates the minimum spanning tree that combines this information.
+"PATH" utilizes the above modes to solve the travelling salesman problem using a branch and bound algorithm to calculate a lower bound cost of following a given path. If the lower bound cost of a path exceeds the cost of the best-so-far path, the path is abandoned.
