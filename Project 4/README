@@ -1,4 +1,4 @@
-A course project which efficiently solves the Traveling Salesman Problem for a cost-directed matrix. 
+A course project which efficiently solves the Traveling Salesman Problem for a cost-directed graph. 
 The project spec is included (ProjectSpec.pdf) which includes information about compilation, input formatting, and the three solution modes -- "CAMPAIGN", "MST", and "PATH".
 
 "CAMPAIGN" takes in a number of states and a maximal budget, as well as a set of costs & value in an election, and calculates the optimal path that does not exceed the specified budget.
